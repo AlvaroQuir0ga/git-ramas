@@ -25,6 +25,13 @@ git config --global alias.l "log --oneline"
 
 ```sh
 git diff
+```  
+
+## Fusionando ramas 
+Estoy sobre la rama main y me quiero traer lo que esta en feature/ramas
+
+```sh
+git merge <rama-que-quiero-fusionar>
 ```
 
 
