@@ -34,4 +34,36 @@ Estoy sobre la rama main y me quiero traer lo que esta en feature/ramas
 git merge <rama-que-quiero-fusionar>
 ```
 
+## Ver el contenido de cada commit
 
+```sh
+git show <numero-hash> 
+```
+
+## Crear una rama
+
+```sh
+git branch <nombre-rama> # crea una rama y nos deja en la rama original
+git switch -c <nombre-rama> # crea una rama y nos mueve a la rama que se creo
+```
+
+# Me muevo entre ramas
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas
+```
+
+
+## Comparar entre los ultimos commits de las ramas
+
+```sh
+git diff <nombre-rama-que-quiero-comprar> 
+git diff dev # ejemplo comparo ramas con dev
+```
+
+# Ver las ramas locales y remotas
+
+```sh
+git branch -a 
+```
