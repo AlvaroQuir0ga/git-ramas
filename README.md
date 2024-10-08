@@ -47,3 +47,16 @@ git switch <nombre-rama>
 git switch feature/ramas
 ```
 
+
+## Comparar entre los ultimos commits de las ramas
+
+```sh
+git diff <nombre-rama-que-quiero-comprar> 
+git diff dev # ejemplo comparo ramas con dev
+```
+
+# Ver las ramas locales y remotas
+
+```sh
+git branch -a 
+```
